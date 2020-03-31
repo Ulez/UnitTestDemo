@@ -12,6 +12,14 @@ public class OrderService {
         this.mailService = mailService;
     }
 
+    public void setMailService(MailService mailService) {
+        this.mailService = mailService;
+    }
+
+    public void setUserCheckService(UserCheckService userCheckService) {
+        this.userCheckService = userCheckService;
+    }
+
     /**
      * 下订单
      *
